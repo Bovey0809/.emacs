@@ -1,0 +1,128 @@
+cd data/
+ls
+cd ..
+rm __MACOSX/
+cd __MACOSX/
+ls
+cd data/
+ls
+cd IMG/
+ls
+cd ..
+cd ..
+cd ..
+rm -rf __MACOSX/
+ls
+mv data/ ..
+ls
+cd 
+cd CarND-Behavioral-Cloning-P3/
+ls
+cd data/
+ls
+cd data/
+ls
+cd ..
+cd ..
+python clone.py 
+ls
+mv data/data.zip .
+ls
+rm -rf data/
+unzip data.zip 
+ls
+ls
+pwd
+python drive.py model.h5 
+ls
+cd
+cd CarND-
+git clone https://github.com/udacity/CarND-Term1-Starter-Kit.gitcd CarND-Term1-Starter-Kit
+which python
+deactivate 
+which python
+conda env create -f environment.yml
+conda env create -f environment-gpu.yml
+source activate carnd-term1
+source activate acrnd-term1
+activate carnd-term1 
+conda clean -tp
+ls
+cd
+cd CarND-Behavioral-Cloning-P3/
+python clone.py 
+which python
+ls
+python drive.py model.h5 
+activate tensorflow 
+python drive.py model.h5 
+activate carnd-term1 
+pip install --upgrade keras
+python drive.py model.h5 
+python drive.py model.h5 
+activate carnd-term1 
+python drive.py model.h5 
+pip list
+pwd
+ls
+find model.h5
+find model.h5 -r .
+find -r model.h5
+cd data/
+ls
+cd ..
+cd ..
+ls
+cd CarND-Behavioral-Cloning-P3/
+ls
+scp clone.py carnd@172.31.8.143
+activate carnd-term1 
+conda install flask8
+conda install -c anaconda flake8
+wget http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py 
+python data_wrangling.py --epochs 200
+python data_wrangling.py --epochs 2000
+python data_wrangling.py --epochs 10
+python data_wrangling.py --epochs 100
+python data_wrangling.py --epochs 100
+python data_wrangling.py --epochs 100 --hidden_layer 1024
+bash set_git.sh 
+find-file set_git.sh 
+bash set_git.sh 
+git push
+git status
+git add clone.py 
+git commit -m 'test git'
+git push
+git status
+rm carnd@13.114.240.224 carnd@172.31.8.143 
+ls
+rm data.zip 
+ls
+ls -1
+rm -rd __MACOSX/
+ls
+which python
+which conda
+git status
+git add generator.ipynb generator.py 
+git commit -m 'Use generator with Keras to input data.'
+git push
+jupyter nbconvert --to python generator.ipynb
+ls
+which pythoin
+which python
+which python
+python generator.py 
+exit

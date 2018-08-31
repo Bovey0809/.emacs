@@ -1,0 +1,1 @@
+("~/CarND-Behavioral-Cloning-P3/" "~/CarND-Transfer-Learning-Lab/" "~/CarND-Alexnet-Feature-Extraction/" "~/.emacs.d/elpa/jedi-core-20170121.1410/")

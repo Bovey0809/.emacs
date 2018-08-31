@@ -1,0 +1,4 @@
+;;(load-theme 'dracula t)
+(menu-bar-mode -1)
+
+(provide 'init-ui)
