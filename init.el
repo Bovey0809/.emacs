@@ -35,7 +35,10 @@
  '(conda-anaconda-home "~/anaconda3")
  '(custom-safe-themes
    (quote
-    ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default))))
+    ("d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default)))
+ '(package-selected-packages
+   (quote
+    (markdown-mode yasnippet-snippets yasnippet-classic-snippets switch-window solarized-theme smex smartparens py-autopep8 projectile popwin nodejs-repl neotree monokai-theme monokai-alt-theme jedi hungry-delete highlight-symbol flycheck exec-path-from-shell elpy ein dracula-theme counsel conda company-jedi company-anaconda))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

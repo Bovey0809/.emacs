@@ -20,4 +20,11 @@
 ;; Autocomplete for global
 (add-hook 'after-init-hook 'global-company-mode)
 
+;; Say yes or no
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; Window split
+(global-set-key "\C-x2" (lambda () (interactive)(split-window-vertically) (other-window 1)))
+(global-set-key "\C-x3" (lambda () (interactive)(split-window-horizontally) (other-window 1)))
+
 (provide 'custome)
