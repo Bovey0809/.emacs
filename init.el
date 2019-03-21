@@ -69,7 +69,7 @@ the directories in the INCLUDE environment variable."
     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "ad9bbd248fa223436c71b87d80086c9e567b2e32e02bf0ccc90beb038cdbcea7" "d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default)))
  '(package-selected-packages
    (quote
-    (ggtags markdown-mode yasnippet-snippets yasnippet-classic-snippets switch-window solarized-theme smex smartparens py-autopep8 projectile popwin nodejs-repl neotree monokai-theme monokai-alt-theme jedi hungry-delete highlight-symbol flycheck exec-path-from-shell elpy ein dracula-theme counsel conda company-jedi company-anaconda))))
+    (irony-eldoc ## company-irony ggtags markdown-mode yasnippet-snippets yasnippet-classic-snippets switch-window solarized-theme smex smartparens py-autopep8 projectile popwin nodejs-repl neotree monokai-theme monokai-alt-theme jedi hungry-delete highlight-symbol flycheck exec-path-from-shell elpy ein dracula-theme counsel conda company-jedi company-anaconda))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
