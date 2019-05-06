@@ -36,9 +36,11 @@
       		      js2-mode
 		      ;; --- Themes ---
 		      monokai-theme
-		      solarized-theme		      
+		      solarized-theme
+		      material-theme
 		      ;; --- Python ---
 		      py-autopep8
+		      elpy
 		      conda
 		      flycheck
 		      ein
