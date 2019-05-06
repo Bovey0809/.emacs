@@ -1,2 +1,10 @@
 auto-save-list/
 elpa/
+.emacs*
+eshell/
+ido.last*
+emacs-c-ide-demo/
+irony/
+smex-items
+projectile-bookmarks.eld
+smex-items

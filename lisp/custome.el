@@ -89,4 +89,24 @@
 (add-hook 'perl-mode-hook       'hs-minor-mode)
 (add-hook 'sh-mode-hook         'hs-minor-mode)
 
+;; org mode
+(setq org-startup-with-inline-images t)
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-switchb)
+
+;; smex mode conflict with c-h
+(define-key key-translation-map [?\C-h] [?\C-?])
+
+;; savedesk
+(desktop-save-mode 1)
+
+;; autosave more frequently
+(setq auto-save-interval 20)
+(setq auto-save-timeout 3)
+(setq auto-save-visited-mode t)
+
+;; theme
+(load-theme 'material)
 (provide 'custome)

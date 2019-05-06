@@ -66,10 +66,10 @@ the directories in the INCLUDE environment variable."
  '(conda-anaconda-home "~/anaconda3")
  '(custom-safe-themes
    (quote
-    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "ad9bbd248fa223436c71b87d80086c9e567b2e32e02bf0ccc90beb038cdbcea7" "d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default)))
+    ("a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "ad9bbd248fa223436c71b87d80086c9e567b2e32e02bf0ccc90beb038cdbcea7" "d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default)))
  '(package-selected-packages
    (quote
-    (irony-eldoc ## company-irony ggtags markdown-mode yasnippet-snippets yasnippet-classic-snippets switch-window solarized-theme smex smartparens py-autopep8 projectile popwin nodejs-repl neotree monokai-theme monokai-alt-theme jedi hungry-delete highlight-symbol flycheck exec-path-from-shell elpy ein dracula-theme counsel conda company-jedi company-anaconda))))
+    (material-theme irony-eldoc ## company-irony ggtags markdown-mode yasnippet-snippets yasnippet-classic-snippets switch-window solarized-theme smex smartparens py-autopep8 projectile popwin nodejs-repl neotree monokai-theme monokai-alt-theme jedi hungry-delete highlight-symbol flycheck exec-path-from-shell elpy ein dracula-theme counsel conda company-jedi company-anaconda))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
