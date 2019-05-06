@@ -42,7 +42,7 @@
 ;; neo tree
 (global-set-key [f8] 'neotree-project-dir)
 
-;; 这一行代码，将函数 open-init-file 绑定到 <f2> 键上
+;; open-init-file <f2> 
 (global-set-key (kbd "<f2>") 'open-init-file)
 
 

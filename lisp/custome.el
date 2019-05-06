@@ -1,11 +1,11 @@
-;; (load-theme 'monokai t)
+(load-theme 'monokai t)
 (conda-env-initialize-interactive-shells)
 ;; if you want eshell support, include:
 (conda-env-initialize-eshell)
 ;; if you want auto-activation (see below for details), include:
 (conda-env-autoactivate-mode t)
 (custom-set-variables
- '(conda-anaconda-home "~/anaconda3"))
+ '(conda-anaconda-home "~/miniconda3"))
 
 ;; set for elpy
 (setq python-shell-interpreter "jupyter"
@@ -41,20 +41,20 @@
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
 ;; ggtags for C++
-(require 'ggtags)
-(add-hook 'c-mode-common-hook
-          (lambda ()
-            (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
-              (ggtags-mode 1))))
+;; (require 'ggtags)
+;; (add-hook 'c-mode-common-hook
+;;           (lambda ()
+;;             (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+;;               (ggtags-mode 1))))
 
-(define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
-(define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
-(define-key ggtags-mode-map (kbd "C-c g r") 'ggtags-find-reference)
-(define-key ggtags-mode-map (kbd "C-c g f") 'ggtags-find-file)
-(define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
-(define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
+;; (define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
+;; (define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
+;; (define-key ggtags-mode-map (kbd "C-c g r") 'ggtags-find-reference)
+;; (define-key ggtags-mode-map (kbd "C-c g f") 'ggtags-find-file)
+;; (define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
+;; (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
 
-(define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
+;; (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
 
 ;; gdb mode
 ;; Show main source buffer when using GDB
@@ -107,6 +107,5 @@
 (setq auto-save-timeout 3)
 (setq auto-save-visited-mode t)
 
-;; theme
-(load-theme 'material)
+
 (provide 'custome)

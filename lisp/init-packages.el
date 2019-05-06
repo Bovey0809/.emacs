@@ -1,3 +1,5 @@
+(setq url-proxy-services '(("no_proxy" . "work\\.com")
+                           ("http" . "www-proxy.waseda.jp:8080")))
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
 		    (not (gnutls-available-p))))
        (proto (if no-ssl "http" "http")))
@@ -12,7 +14,7 @@
 (require 'cl)
 
 ;; Add Packages
-(defvar my/packages '(
+(defvar myPackages '(
 		      ;; --- Auto-completion ---
 		      company
 		      ;;  Better Editor ---
@@ -26,14 +28,12 @@
 		      smex
 		      switch-window
 		      highlight-symbol
-
-		      ;; --- Major Mode ---
-		      js2-mode
 		      ;; --- Minor Mode ---
 		      nodejs-repl
 		      exec-path-from-shell
 		      flycheck
 		      projectile
+      		      js2-mode
 		      ;; --- Themes ---
 		      monokai-theme
 		      solarized-theme		      
@@ -42,5 +42,12 @@
 		      conda
 		      flycheck
 		      ein
+		      ;; --- C++ ---
+		      ggtags
 		      ) "Default packages")
+(mapc #'(lambda (package)
+    (unless (package-installed-p package)
+      (package-install package)))
+      myPackages)
+
 (provide 'init-packages)
