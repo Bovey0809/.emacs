@@ -15,8 +15,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
  '(conda-anaconda-home "~/miniconda3")
+ '(custom-safe-themes
+   (quote
+    ("a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" default)))
  '(global-company-mode t)
+ '(hl-sexp-background-color "#121212")
  '(package-selected-packages
    (quote
     (py-autopep8 flycheck ein better-defaults material-theme anaconda-mode elpy)))

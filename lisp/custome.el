@@ -1,4 +1,4 @@
-(load-theme 'monokai t)
+(load-theme 'material t)
 (conda-env-initialize-interactive-shells)
 ;; if you want eshell support, include:
 (conda-env-initialize-eshell)
@@ -13,6 +13,7 @@
       python-shell-prompt-detect-failure-warning nil)
 (add-to-list 'python-shell-completion-native-disabled-interpreters
              "jupyter")
+(add-hook 'elpy-mode-hook 'py-yapf-enable-on-save)
 
 ;; for autocompelete bracket.
 (electric-pair-mode 1)

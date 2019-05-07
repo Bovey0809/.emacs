@@ -44,6 +44,7 @@
 		      elpy
 		      conda
 		      flycheck
+		      anaconda-mode
 		      ein
 		      ;; --- C++ ---
 		      ggtags
