@@ -13,7 +13,7 @@
       python-shell-prompt-detect-failure-warning nil)
 (add-to-list 'python-shell-completion-native-disabled-interpreters
              "jupyter")
-(add-hook 'elpy-mode-hook 'py-yapf-enable-on-save)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 ;; for autocompelete bracket.
 (electric-pair-mode 1)
