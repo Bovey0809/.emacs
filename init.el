@@ -25,13 +25,14 @@
  '(conda-env-home-directory "/home/houbowei/miniconda3/")
  '(custom-safe-themes
    (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" default)))
+    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" default)))
  '(elpy-get-info-from-shell t)
  '(global-company-mode t)
  '(hl-sexp-background-color "#121212")
  '(package-selected-packages
    (quote
     (jedi py-autopep8 flycheck ein better-defaults material-theme anaconda-mode elpy)))
+ '(python-indent-guess-indent-offset-verbose nil)
  '(yas-also-auto-indent-first-line t)
  '(yas-also-indent-empty-lines t))
 (custom-set-faces
@@ -39,7 +40,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(highlight-indentation-face ((t (:inherit nil)))))
 
 
 (package-initialize)
