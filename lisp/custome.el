@@ -8,12 +8,17 @@
  '(conda-anaconda-home "~/miniconda3"))
 
 ;; set for elpy
-(setq python-shell-interpreter "jupyter"
-      python-shell-interpreter-args "console --simple-prompt"
-      python-shell-prompt-detect-failure-warning nil)
-(add-to-list 'python-shell-completion-native-disabled-interpreters
-             "jupyter")
+(setq elpy-rpc-backend "jedi")
+(add-hook 'elpy-mode-hook 'flycheck-mode)
+(require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+
+(setq python-shell-interpreter "ipython"
+      python-shell-interpreter-args "-i --simple-prompt")
+;; ;; jedi
+;; (add-hook 'python-mode-hook 'jedi:setup)
+;; (setq jedi:complete-on-dot t)                 ; optional
 
 ;; for autocompelete bracket.
 (electric-pair-mode 1)
