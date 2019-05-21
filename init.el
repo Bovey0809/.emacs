@@ -17,8 +17,8 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default bold shadow italic underline bold bold-italic bold])
- '(company-auto-complete t)
- '(company-auto-complete-chars (quote (32 40 41 119 46 34 36 39 60 62 47 124 33)))
+ '(company-auto-complete (quote ignore))
+ '(company-auto-complete-chars (quote (32 95 40 41 119 46 34 36 39 60 62 47 124 33)))
  '(company-global-modes t)
  '(company-show-numbers t)
  '(conda-anaconda-home "~/miniconda3")
@@ -40,6 +40,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(company-tooltip ((t (:foreground "blue"))))
  '(highlight-indentation-face ((t (:inherit nil)))))
 
 

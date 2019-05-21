@@ -12,8 +12,6 @@
 (add-hook 'elpy-mode-hook 'flycheck-mode)
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
-
-
 (setq python-shell-interpreter "ipython"
       python-shell-interpreter-args "-i --simple-prompt")
 ;; ;; jedi
@@ -94,7 +92,10 @@
 (add-hook 'lisp-mode-hook       'hs-minor-mode)
 (add-hook 'perl-mode-hook       'hs-minor-mode)
 (add-hook 'sh-mode-hook         'hs-minor-mode)
-
+(add-hook 'python-mode-hook     'hs-minor-mode)
+(with-eval-after-load "python"
+  (define-key python-mode-map (kbd "C-c TAB") 'hs-toggle-hiding)
+)
 ;; org mode
 (setq org-startup-with-inline-images t)
 (global-set-key "\C-cl" 'org-store-link)
@@ -110,8 +111,9 @@
 
 ;; autosave more frequently
 (setq auto-save-interval 20)
-(setq auto-save-timeout 3)
+(setq auto-save-timeout 1)
 (setq auto-save-visited-mode t)
+
 
 
 (provide 'custome)
