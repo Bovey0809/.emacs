@@ -1,3 +1,4 @@
+(add-to-list 'package--builtin-versions '(emacs 25))
 (package-initialize)
 (add-to-list 'load-path "~/.emacs.d/lisp")
 

@@ -5,7 +5,7 @@
 ;; if you want auto-activation (see below for details), include:
 (conda-env-autoactivate-mode t)
 (custom-set-variables
- '(conda-anaconda-home "~/miniconda3"))
+ '(conda-anaconda-home "~/anaconda3"))
 
 ;; set for elpy
 (setq elpy-rpc-backend "jedi")

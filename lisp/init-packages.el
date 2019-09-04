@@ -33,7 +33,8 @@
 		      nodejs-repl
 		      exec-path-from-shell
 		      flycheck
-		      projectile
+		      ;; projectile
+		      ;; THE emacs version conflict
       		      js2-mode
 		      ;; --- Themes ---
 		      monokai-theme
