@@ -1,5 +1,5 @@
-(setq url-proxy-services '(("no_proxy" . "work\\.com")
-                           ("http" . "www-proxy.waseda.jp:8080")))
+;; (setq url-proxy-services '(("no_proxy" . "work\\.com")
+;;                            ("http" . "www-proxy.waseda.jp:8080")))
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
 		    (not (gnutls-available-p))))
        (proto (if no-ssl "http" "http")))
